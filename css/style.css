@@ -1,0 +1,109 @@
+#jumbotron{
+    padding: 0px;
+    background-color: white !important;
+}
+
+#navbar{
+    margin-top:-32px; 
+}
+#center1{
+    justify-content: center !important;
+}
+#container1{
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.col-sm-3{
+    padding: 12px;
+}
+.col-sm-3 p{
+    font-style: italic;
+    border-bottom: 1px dotted grey;
+
+}
+.red{
+    color: red;
+}
+.row img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+#hover1 p{
+   
+    display: inline;
+    border:1px solid #C00000;
+    color: #C00000;
+   
+}
+
+#hover1 p:hover{
+    background-color: #C00000;
+    color: white;
+}
+#evolution{
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    background-color:white;
+    
+}
+.container-fluid{
+    background-color:whitesmoke;
+}
+@media (max-width:425px){
+    .mov{
+        margin-left: unset !important;
+    }
+    #jumbotron{
+        
+        visibility: hidden;
+        height: 20px;
+    }
+    #Cult{
+        margin: unset;
+    }
+    .fontstyle{
+        font-family: serif;
+        font-size: 20px;
+    }
+    #size{
+        font-size:40px !important;
+    }
+}
+.mov{
+    margin-left: 230px;
+}
+#Cult{
+    margin-top: 170px !important;
+}
+.grey{
+    color: #A7B6BD;
+    
+    
+}
+.time{
+    color: #5C655C;
+    border-top: 1px dotted grey;
+    font-size: 13px;
+}
+.fontstyle{
+    font-family: serif;
+}
+#size{
+    font-size:60px;
+}
+.opac:hover{
+    opacity: 0.5;
+}
+#hover2 p{
+    color: white;  
+    border:1px solid white;
+    width: 150px;
+}
+#hover2 p:hover{
+    color:#5C655C ;  
+    border:1px solid white;
+    width: 150px;
+    background-color: white;
+}
